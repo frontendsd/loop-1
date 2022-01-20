@@ -18,6 +18,7 @@ body {
   line-height: 27px;
   letter-spacing: 2px;
   height: 100%;
+  background-color: rgba(29, 32, 202, 0.479);
 }
 
 /* CONTAINER */
@@ -33,4 +34,76 @@ body {
 /* MAIN */
 .main-content {
   flex-grow: 1;
+}
+
+.chanel {
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  left: 280px;
+  top: 200px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.chanel-list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.chanel-item:not(:last-child) {
+  margin-right: 50px;
+}
+.mobil-img {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.mobil-title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: blueviolet;
+}
+.tv-title {
+  margin-left: 140px;
+  /* margin-top: 5px; */
+}
+
+.mobil-text {
+  width: 400px;
+  color: rgba(110, 108, 108, 0.425);
+  font-weight: 600;
+  text-align: center;
+}
+span {
+  display: block;
+  color: blueviolet;
+  font-weight: 600;
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.mobile:hover {
+  background-color: rgba(172, 172, 172, 0.5);
+  opacity: 0.6;
+  color: #000;
+}
+.desktop:hover {
+  opacity: 0.6;
+  color: #000;
+  background-color: rgba(172, 172, 172, 0.753);
+}
+.tv:hover {
+  color: #000;
+  opacity: 0.6;
+  background-color: rgba(172, 172, 172, 0.753);
 }
